@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    width: auto;
+    height: 150vw;
+    border: 1px solid black;
+    background-color: #F9B971;
+    border-radius: 5px;
+}
+.btn-pie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.titulo h1{
+    display: inline-block;
+    font-size: 15vw;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: cursive;
+}
+.subtitulo p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.botones button{
+    margin-left: 2vw;
+    margin-bottom: 5px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding-top: 1vw;
+    border-bottom: 10px;
+}
+.pie p{
+    font-size: 15px;
+}
+.pie button img{
+    width: 7vw;
+    margin: 0;
+    border-radius: 10px;
+}
+.btn-pie button{
+    border: none;
+    background-color:#F9B971;
+}
+iframe{
+    width: 80vw;
+    height: 80vw;
+    border: none;
+    border-radius: 20px;
+    margin-top: 5vw;
+}
+.secion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    background-color: orange;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
+}
